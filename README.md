@@ -1,4 +1,4 @@
-# BlazorLN
+## BlazorLN
 
 Projeto simples feito com Blazor, focado em aprendizado e desenvolvimento de aplicações web modernas usando .NET.
 
@@ -10,13 +10,13 @@ Este repositório contém um projeto desenvolvido com Blazor, explorando compone
 
 - Interface interativa com Blazor
 - Navegação entre páginas
-- Comunicação básica com backend (se aplicável)
+- Comunicação básica com backend
 - Estrutura simples e didática para facilitar o entendimento
 
 ## Tecnologias
 
-- .NET 7 / 8 (dependendo da versão usada)
-- Blazor WebAssembly ou Server (especifique o que usar)
+- .NET 7 / 8
+- Blazor WebAssembly
 - C#
 
 ## Como rodar localmente
@@ -24,3 +24,11 @@ Este repositório contém um projeto desenvolvido com Blazor, explorando compone
 1. Clone o repositório:
    ```bash
    git clone https://github.com/carloslk18/blazor-ln.git
+2. Entre na pasta do projeto:
+   ```bash
+   cd blazor-ln
+4. Restaure as dependências e rode o projeto:
+   ```bash
+   dotnet restore
+   dotnet run
+6. Abra o navegador em https://localhost:5001 (ou porta indicada no terminal).
